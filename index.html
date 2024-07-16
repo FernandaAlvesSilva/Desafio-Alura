@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Desafio</title>
+    <link id="estilo" rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="CSS/img/Alura.png" alt="logo">
+    </header>
+    <main>
+        <section>
+            <div>
+                <textarea id="inputText" name="TxtCripto" rows="4" cols="30" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+
+            <div class="mensagem">
+                <img src="CSS/img/Group.png" alt="sinal-alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="botao">
+                <button class="btnEncriptador" onclick="criptografar()">
+                    <p>Criptografar</p>
+                </button> 
+
+                <button class="btnDesincriptar" onclick="descriptografar()">
+                    <p>Descriptografar</p>
+                </button>
+            </div>
+        </section>
+        <aside>
+            <div class="retangulo">
+                <div class="conteudo conteudo-um">
+                    <img src="CSS/img/Vector.png" class="img__menina" alt="vetor-menina">
+                    <h1 class="texto__titulo">Nenhuma mensagem encontrada</h1>
+                    <p class="texto__conteudo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                
+                <div class="conteudo conteudo-dois">
+                    <textarea id="outputText" class="areaEncriptador" rows="4" cols="30"></textarea>
+                    <button id="botaoCopia" class="btnCopiar" onclick="copiar()">
+                        <p>Copiar</p>
+                    </button>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Fernanda Alves - 2024</p>
+    </footer>
+
+    <script src="cripto.js"></script>
+</body>
+</html>
