@@ -29,3 +29,6 @@ Após a transformação, o texto criptografado ou descriptografado é exibido em
 Copiar Texto:
 
 A aplicação inclui uma funcionalidade de copiar o texto transformado para a área de transferência, permitindo que os usuários utilizem facilmente o texto em outros contextos.
+
+Link para testar: https://desafio-alura-bay.vercel.app/
+
