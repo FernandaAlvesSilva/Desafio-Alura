@@ -1,3 +1,7 @@
+
+![image](https://github.com/user-attachments/assets/0fda9efc-c559-44c3-a2a8-e4402bdc6d9c)
+
+
 Projeto de Criptografia e Descriptografia de Texto
 
 Descrição Geral
